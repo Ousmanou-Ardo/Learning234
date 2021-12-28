@@ -57,7 +57,6 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.runserver_nostatic','django.contrib.staticfiles',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -134,8 +133,6 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-
-WHITENOISE_USE_FINDERS = True
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
@@ -147,5 +144,3 @@ VIEW_PATH = os.path.dirname(BASE_DIR)
 STATIC_ROOT = os.path.join(VIEW_PATH, 'static root')
 MEDIA_ROOT = os.path.join(STATIC_ROOT, 'media')
 MEDIA_URL = '/media/'
-
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
