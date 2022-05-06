@@ -1,0 +1,65 @@
+{% extends "bas.html" %}
+{%  load static %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Projects - Brand</title>
+    <link rel="stylesheet" href="{% static 'sets/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="{% static 'sets/fonts/ionicons.min.css' %}">
+    <link rel="stylesheet" href="{% static 'sets/css/Animated-CSS-Waves-Background-SVG.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+</head>
+
+<body>
+    <main class="page projects-page">
+        <section class="portfolio-block projects-cards">
+            <div class="container">
+                <div class="heading">
+                    <h2>THE COVID19</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-8">
+                        <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="{% static 'sets/img/nature/corona-4.jpg' %}" alt="Card Image"></a>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card-body">
+                            <h6>What is Coronavirus</h6>
+                            <p class="text-muted card-text">Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases. fFind out more about this novel coronavirus (nCoV) that has not been previously identified in humans.</p>
+                        </div><small> <a href="https://www.un.org/en/coronavirus">More on the coronavirus >></a> </small>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-12">
+                        <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="{% static 'sets/img/nature/coronavirus-7.png' %}" alt="Card Image"></a>
+                            <div class="card-body">
+                                <h6><a href="#"></a>FAQs</h6>
+                                <p class="text-muted card-text">What are the symptoms of COVID-19? How can I protect myself? Should I worry about COVID-19? <a href="https://www.un.org/en/coronavirus/covid-19-faqs"> Get the answers.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="{% static 'sets/img/nature/virus-3.jpg' %}" alt="Card Image"></a>
+                            <div class="card-body">
+                                <h6><a href="#">Vaccination compaigns</a></h6>
+                                <p class="text-muted card-text">With large sections of the population unvaccinated, new variants, like Omicron, are likely to keep emerging. These new variants spread like wildfire and put everyone at increased risk. To end this destructive cycle, the UN says we must vaccinate at least 70% of the population in every country. The UN's vaccine strategy is to achieve this goal by mid-2022. This will require at least 11 billion vaccine doses – but the task is doable..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="{% static 'sets/bootstrap/js/bootstrap.min.js' %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="{% static 'sets/js/theme.js' %}"></script>
+</body>
+{% endblock  %}
+</html>
