@@ -1,6 +1,6 @@
 # Learning234
 This app is built by using django framework.
-## Make sure you have installed python 3.8 or higher version also pipenv
+## Make sure you have python 3.8 installed  or higher version  and also pipenv
 
 
 ## To start, clone the repository  : 
@@ -9,5 +9,6 @@ This app is built by using django framework.
 - pip freeze > requirements.txt
 - pipenv lock -r
 - pipenv shell
+
 
 
