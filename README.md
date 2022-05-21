@@ -9,7 +9,7 @@ This app is built by using django framework.
 - pipenv shell
 - pip freeze > requirements.txt
 - pipenv lock -r
-- python
+- python  manage.py runserver
 
 
 
