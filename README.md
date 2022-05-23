@@ -7,7 +7,6 @@ This app is built by using django framework.
 - git clone github.com/Ousmanou-Ardo/Learning124.git
 - cd Learning124
 - pipenv shell
-- pip freeze > requirements.txt
 - pipenv lock -r
 - python  manage.py runserver
 
