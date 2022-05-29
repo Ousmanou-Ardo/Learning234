@@ -10,5 +10,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yaya Ousmanou</title>
   </head>
-  <nav> this the my nava </nav>
-  <!-- now we can write the nave and the body in the following lines -->
+  
+  <!-- now we can write the nave and the body in the following lines <nav> this the my nava </nav>   -->
+  
+ <h1>Order a pizza</h1>
+<h2>{{ note }}</h2>
+
+<form action="{% url 'order' %}" method="post">
+    {% csrf_token %}
+    {{ pizzaform}}
+<input type="submit" value="Order some pizza">
+
+</form>
